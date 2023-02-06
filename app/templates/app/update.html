@@ -1,0 +1,38 @@
+{% extends "app/base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="regform">
+    <h1> Update form</h1>
+</div>
+
+<div class="main">
+
+
+    <div id="name">
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="rext" name="first_name"><br>
+        <label class="firstlable">first name</label>
+        <input class="lastname" type="text" name="last_name">
+        <label class="lastlable">last name</label>
+        <div>
+            <input type="hidden" name="uid">
+            <h2 class="name">Company</h2>
+            <input class="company" type="text" name="company"><br>
+
+            <h2 class="name">Email</h2>
+            <input class="Email" type="text" name="Email"><br>
+            <h2 class="name"> Phone</h2>
+            <input class="code" type="text" name="area_coda">
+            <label class="area-code"> Area code</label>
+            <input class="number" type="text" type="text" name="Phone">
+            <label class="phone-number"> Phone number</label><br>
+                <button type="submit">Save</button>
+        </div>
+
+    </div>
+    </form>
+</div>
+
+{% endblock content %}
